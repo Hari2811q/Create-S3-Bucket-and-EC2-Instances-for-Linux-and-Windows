@@ -10,32 +10,41 @@
 ## Login to AWS Management Console:
 
 1.Open the AWS Management Console.
+
 2.Navigate to the S3 service for bucket creation and EC2 for instance setup.
 ## Step 2
 ## Create an S3 Bucket:
 
-1.Go to the S3 service.
+1.Go to the S3 service. 
+
 2.Click on Create bucket.
+
 3.Provide a unique Bucket Name and select the Region.
+
 4.Configure additional settings as per requirements and click Create bucket.
 ## Step 3
 ## Launch EC2 Instance (Linux):
 
 1.Go to the EC2 service.
+
 2.Click Launch Instance.
+
 3.Select an Amazon Machine Image (AMI), such as Amazon Linux 2.
+
 4.Choose an Instance Type (e.g., t2.micro).
+
 5.Configure instance settings, key pair, and security groups, then Launch the instance.
 ## Step 4
 ## Launch EC2 Instance (Windows):
 
 1.Repeat the EC2 launch steps but select a Windows Server AMI.
+
 2.Complete instance configuration and Launch.
-3.Step 5
-4.Connect to Instances:
+
 ## step 5
 ## Connect to Instances:
 Linux Instance: Use SSH to connect.
+
 ssh -i "key_pair.pem" ec2-user@<linux_public_dns>
 ## COMMANDS
 ## S3 Bucket Creation
